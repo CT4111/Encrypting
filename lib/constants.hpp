@@ -1,6 +1,5 @@
 // include/alphabets.hpp
 #pragma once
-#include <string>
 
 namespace Alphabets {
 // Basis-Alphabete
