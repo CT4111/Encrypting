@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-int main() {
+void testCaesarEncrypt() {
   int a = 3;
   std::string b = "test";
   std::string c = Alphabets::ENGLISH;
@@ -11,5 +11,10 @@ int main() {
   std::cout << output << std::endl;
   std::cout << std::endl;
   CryptoTools::caesarDecryptBruteForce(output, c);
+  return 0;
+}
+
+int main() {
+  testCaesarEncrypt();
   return 0;
 }
