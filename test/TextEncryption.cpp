@@ -11,7 +11,6 @@ void testCaesarEncrypt() {
   std::cout << output << std::endl;
   std::cout << std::endl;
   CryptoTools::caesarDecryptBruteForce(output, c);
-  return 0;
 }
 
 int main() {
